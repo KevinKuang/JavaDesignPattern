@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="46.75" y="96.0">decorator.notuseoo.MilkTea</node>
+    <node x="185.0" y="0.0">decorator.tea.JiDiTea</node>
+    <node x="-165.5" y="97.0">decorator.tea.WuLong</node>
+    <node x="0.0" y="0.0">decorator.notuseoo.Ingredient</node>
+    <node x="212.0" y="96.0">decorator.tea.BlackTea</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="decorator.tea.BlackTea" target="decorator.tea.JiDiTea">
+      <point x="0.0" y="-23.0" />
+      <point x="34.0" y="23.0" />
+    </edge>
+    <edge source="decorator.tea.WuLong" target="decorator.tea.JiDiTea">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

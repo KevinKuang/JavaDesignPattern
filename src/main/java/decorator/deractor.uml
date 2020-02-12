@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="337.0" y="264.0">decorator.tea.YeGuo</node>
+    <node x="103.78571428571428" y="150.0">decorator.tea.JiDiTea</node>
+    <node x="488.0" y="264.0">decorator.tea.ZhenZhu</node>
+    <node x="170.0" y="264.0">decorator.tea.WuLong</node>
+    <node x="332.5" y="0.0">decorator.tea.MilkTea</node>
+    <node x="369.10714285714283" y="132.0">decorator.tea.Ingredient</node>
+    <node x="0.0" y="264.0">decorator.tea.BlackTea</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="decorator.tea.BlackTea" target="decorator.tea.JiDiTea">
+      <point x="0.0" y="-23.0" />
+      <point x="75.0" y="239.0" />
+      <point x="137.78571428571428" y="239.0" />
+      <point x="-34.0" y="23.0" />
+    </edge>
+    <edge source="decorator.tea.YeGuo" target="decorator.tea.Ingredient">
+      <point x="0.0" y="-23.0" />
+      <point x="402.5" y="239.0" />
+      <point x="428.10714285714283" y="239.0" />
+      <point x="-59.0" y="41.0" />
+    </edge>
+    <edge source="decorator.tea.WuLong" target="decorator.tea.JiDiTea">
+      <point x="0.0" y="-23.0" />
+      <point x="243.5" y="239.0" />
+      <point x="205.78571428571428" y="239.0" />
+      <point x="34.0" y="23.0" />
+    </edge>
+    <edge source="decorator.tea.Ingredient" target="decorator.tea.MilkTea">
+      <point x="59.0" y="-41.0" />
+      <point x="546.1071428571429" y="107.0" />
+      <point x="485.0" y="107.0" />
+      <point x="61.0" y="41.0" />
+    </edge>
+    <edge source="decorator.tea.ZhenZhu" target="decorator.tea.Ingredient">
+      <point x="0.0" y="-23.0" />
+      <point x="563.5" y="239.0" />
+      <point x="546.1071428571429" y="239.0" />
+      <point x="59.0" y="41.0" />
+    </edge>
+    <edge source="decorator.tea.JiDiTea" target="decorator.tea.MilkTea">
+      <point x="0.0" y="-23.0" />
+      <point x="171.78571428571428" y="107.0" />
+      <point x="363.0" y="107.0" />
+      <point x="-61.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="319.5" y="119.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

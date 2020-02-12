@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="201.0" y="96.0">factory.simple.pizza.GreekPizza</node>
+    <node x="0.0" y="96.0">factory.simple.pizza.PepperPizza</node>
+    <node x="189.54166666666669" y="0.0">factory.simple.pizza.AbstractPizza</node>
+    <node x="390.0" y="96.0">factory.simple.pizza.CheesePizza</node>
+    <node x="164.5" y="192.0">factory.simple.factory.SimplePizzaFactory</node>
+    <node x="222.5" y="288.0">factory.simple.order.Order</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.simple.pizza.GreekPizza" target="factory.simple.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="factory.simple.pizza.PepperPizza" target="factory.simple.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="90.5" y="71.0" />
+      <point x="221.54166666666669" y="71.0" />
+      <point x="-64.0" y="23.0" />
+    </edge>
+    <edge source="factory.simple.order.Order" target="factory.simple.factory.SimplePizzaFactory">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="factory.simple.factory.SimplePizzaFactory" target="factory.simple.pizza.GreekPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="factory.simple.pizza.CheesePizza" target="factory.simple.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="480.0" y="71.0" />
+      <point x="349.5416666666667" y="71.0" />
+      <point x="64.0" y="23.0" />
+    </edge>
+    <edge source="factory.simple.factory.SimplePizzaFactory" target="factory.simple.pizza.CheesePizza">
+      <point x="80.66666666666669" y="-23.0" />
+      <point x="366.1666666666667" y="167.0" />
+      <point x="480.0" y="167.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="factory.simple.factory.SimplePizzaFactory" target="factory.simple.pizza.PepperPizza">
+      <point x="-80.66666666666669" y="-23.0" />
+      <point x="204.83333333333331" y="167.0" />
+      <point x="90.5" y="167.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="290.5" y="239.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

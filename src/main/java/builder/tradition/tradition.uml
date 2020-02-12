@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="131.5" y="288.0">builder.tradition.Client</node>
+    <node x="228.0" y="192.0">builder.tradition.building.Villa</node>
+    <node x="0.0" y="192.0">builder.tradition.building.CommonHouse</node>
+    <node x="115.5" y="0.0">builder.tradition.building.roof.RoofType</node>
+    <node x="84.0" y="96.0">builder.tradition.building.AbstractBuilding</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="builder.tradition.building.AbstractBuilding" target="builder.tradition.building.roof.RoofType">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="builder.tradition.Client" target="builder.tradition.building.Villa">
+      <point x="31.25" y="-23.0" />
+      <point x="225.25" y="263.0" />
+      <point x="284.0" y="263.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="builder.tradition.Client" target="builder.tradition.building.CommonHouse">
+      <point x="-31.25" y="-23.0" />
+      <point x="162.75" y="263.0" />
+      <point x="104.0" y="263.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="builder.tradition.building.CommonHouse" target="builder.tradition.building.AbstractBuilding">
+      <point x="0.0" y="-23.0" />
+      <point x="104.0" y="167.0" />
+      <point x="139.0" y="167.0" />
+      <point x="-55.0" y="23.0" />
+    </edge>
+    <edge source="builder.tradition.building.Villa" target="builder.tradition.building.AbstractBuilding">
+      <point x="0.0" y="-23.0" />
+      <point x="284.0" y="167.0" />
+      <point x="249.0" y="167.0" />
+      <point x="55.0" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="170.0" y="167.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

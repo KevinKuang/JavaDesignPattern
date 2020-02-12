@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="565.75" y="222.0">factory.function.order.Order</node>
+    <node x="717.4895833333333" y="222.0">factory.function.factory.SHPizzaFactory</node>
+    <node x="548.75" y="0.0">factory.function.pizza.AbstractPizza</node>
+    <node x="10.5" y="116.0">factory.function.pizza.BJCheesePizza</node>
+    <node x="228.49999999999994" y="116.0">factory.function.pizza.BJPepperPizza</node>
+    <node x="447.49999999999994" y="116.0">factory.function.factory.AbstractPizzaFactory</node>
+    <node x="746.0625" y="116.0">factory.function.pizza.SHCheesePizza</node>
+    <node x="130.5624999999999" y="222.0">factory.function.factory.BJPizzaFactory</node>
+    <node x="970.0625" y="116.0">factory.function.pizza.SHPepperPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.function.factory.BJPizzaFactory" target="factory.function.factory.AbstractPizzaFactory">
+      <point x="75.375" y="-23.0" />
+      <point x="306.4374999999999" y="202.0" />
+      <point x="479.49999999999994" y="202.0" />
+      <point x="-96.0" y="23.0" />
+    </edge>
+    <edge source="factory.function.factory.SHPizzaFactory" target="factory.function.factory.AbstractPizzaFactory">
+      <point x="-77.625" y="-23.0" />
+      <point x="743.3645833333333" y="192.0" />
+      <point x="671.5" y="192.0" />
+      <point x="96.0" y="23.0" />
+    </edge>
+    <edge source="factory.function.pizza.BJPepperPizza" target="factory.function.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="327.99999999999994" y="86.0" />
+      <point x="608.75" y="86.0" />
+      <point x="-36.0" y="23.0" />
+    </edge>
+    <edge source="factory.function.pizza.SHCheesePizza" target="factory.function.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="848.0625" y="76.0" />
+      <point x="704.75" y="76.0" />
+      <point x="60.0" y="23.0" />
+    </edge>
+    <edge source="factory.function.pizza.SHPepperPizza" target="factory.function.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="1072.5625" y="66.0" />
+      <point x="728.75" y="66.0" />
+      <point x="84.0" y="23.0" />
+    </edge>
+    <edge source="factory.function.pizza.BJCheesePizza" target="factory.function.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="109.5" y="76.0" />
+      <point x="584.75" y="76.0" />
+      <point x="-60.0" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="588.0" y="134.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

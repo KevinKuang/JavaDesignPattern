@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="775.625" y="192.0">iterator.ComputerCollege</node>
+    <node x="0.0" y="96.0">iterator.CommunicationCollegeIterator</node>
+    <node x="705.5583333333334" y="0.0">iterator.Department</node>
+    <node x="490.05833333333334" y="96.0">iterator.College</node>
+    <node x="471.55833333333334" y="192.0">iterator.OutputImpl</node>
+    <node x="174.55833333333334" y="192.0">iterator.CommunicationCollege</node>
+    <node x="650.0583333333334" y="96.0">iterator.ComputerCollegeIterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="iterator.OutputImpl" target="iterator.College">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="iterator.CommunicationCollege" target="iterator.College">
+      <point x="92.33333333333331" y="-23.0" />
+      <point x="405.39166666666665" y="172.0" />
+      <point x="513.3916666666667" y="172.0" />
+      <point x="-46.66666666666663" y="23.0" />
+    </edge>
+    <edge source="iterator.ComputerCollegeIterator" target="iterator.Department">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="iterator.ComputerCollege" target="iterator.College">
+      <point x="-85.125" y="-23.0" />
+      <point x="804.0" y="172.0" />
+      <point x="606.7249999999999" y="172.0" />
+      <point x="46.66666666666663" y="23.0" />
+    </edge>
+    <edge source="iterator.CommunicationCollegeIterator" target="iterator.Department">
+      <point x="0.0" y="-23.0" />
+      <point x="170.5" y="66.0" />
+      <point x="723.5583333333334" y="66.0" />
+      <point x="-72.0" y="23.0" />
+    </edge>
+    <edge source="iterator.CommunicationCollege" target="iterator.CommunicationCollegeIterator">
+      <point x="-92.33333333333331" y="-23.0" />
+      <point x="220.72500000000002" y="172.0" />
+      <point x="170.5" y="172.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="iterator.CommunicationCollege" target="iterator.Department">
+      <point x="0.0" y="-23.0" />
+      <point x="313.05833333333334" y="172.0" />
+      <point x="351.5" y="172.0" />
+      <point x="351.5" y="76.0" />
+      <point x="759.5583333333334" y="76.0" />
+      <point x="-36.0" y="23.0" />
+    </edge>
+    <edge source="iterator.ComputerCollege" target="iterator.Department">
+      <point x="28.375" y="-23.0" />
+      <point x="917.5" y="172.0" />
+      <point x="951.5583333333334" y="172.0" />
+      <point x="951.5583333333334" y="76.0" />
+      <point x="831.5583333333334" y="76.0" />
+      <point x="36.0" y="23.0" />
+    </edge>
+    <edge source="iterator.ComputerCollege" target="iterator.ComputerCollegeIterator">
+      <point x="-28.375" y="-23.0" />
+      <point x="860.75" y="162.0" />
+      <point x="795.5583333333334" y="162.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="501.5" y="119.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

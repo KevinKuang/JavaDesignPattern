@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="183.0" y="0.0">factory.tradition.pizza.AbstractPizza</node>
+    <node x="189.0" y="96.0">factory.tradition.pizza.CheesePizza</node>
+    <node x="216.0" y="192.0">factory.tradition.order.Order</node>
+    <node x="389.0" y="96.0">factory.tradition.pizza.PepperPizza</node>
+    <node x="0.0" y="96.0">factory.tradition.pizza.GreekPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factory.tradition.pizza.PepperPizza" target="factory.tradition.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="479.5" y="71.0" />
+      <point x="343.0" y="71.0" />
+      <point x="64.0" y="23.0" />
+    </edge>
+    <edge source="factory.tradition.pizza.GreekPizza" target="factory.tradition.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="84.5" y="71.0" />
+      <point x="215.0" y="71.0" />
+      <point x="-64.0" y="23.0" />
+    </edge>
+    <edge source="factory.tradition.order.Order" target="factory.tradition.pizza.PepperPizza">
+      <point x="42.0" y="-23.0" />
+      <point x="321.0" y="167.0" />
+      <point x="479.5" y="167.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="factory.tradition.pizza.CheesePizza" target="factory.tradition.pizza.AbstractPizza">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="factory.tradition.order.Order" target="factory.tradition.pizza.CheesePizza">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="factory.tradition.order.Order" target="factory.tradition.pizza.GreekPizza">
+      <point x="-42.0" y="-23.0" />
+      <point x="237.0" y="167.0" />
+      <point x="84.5" y="167.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="285.0" y="119.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

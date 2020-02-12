@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="409.0" y="249.0">builder.builder.builder.BuildingBuilder</node>
+    <node x="934.5" y="96.0">builder.builder.building.CommonHouse</node>
+    <node x="0.0" y="96.0">builder.builder.building.Villa</node>
+    <node x="836.75" y="192.0">builder.builder.builder.CommonHouseBuilder</node>
+    <node x="437.25" y="0.0">builder.builder.building.AbstractBuilding</node>
+    <node x="210.75" y="337.0">builder.builder.director.DecorateBuildingDirector</node>
+    <node x="542.75" y="346.0">builder.builder.director.StandardBuildingDirector</node>
+    <node x="12.75" y="192.0">builder.builder.builder.VillaBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="builder.builder.builder.VillaBuilder" target="builder.builder.building.Villa">
+      <point x="-43.25" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="builder.builder.builder.VillaBuilder" target="builder.builder.builder.BuildingBuilder">
+      <point x="43.25" y="-23.0" />
+      <point x="420.5" y="251.0" />
+      <point x="418.0" y="243.0" />
+      <point x="-78.0" y="23.0" />
+    </edge>
+    <edge source="builder.builder.builder.CommonHouseBuilder" target="builder.builder.builder.BuildingBuilder">
+      <point x="-67.25" y="-23.0" />
+      <point x="904.0" y="162.0" />
+      <point x="589.0" y="162.0" />
+      <point x="78.0" y="23.0" />
+    </edge>
+    <edge source="builder.builder.building.CommonHouse" target="builder.builder.building.AbstractBuilding">
+      <point x="0.0" y="-23.0" />
+      <point x="1038.5" y="71.0" />
+      <point x="602.25" y="71.0" />
+      <point x="55.0" y="23.0" />
+    </edge>
+    <edge source="builder.builder.director.DecorateBuildingDirector" target="builder.builder.builder.BuildingBuilder">
+      <point x="0.0" y="-23.0" />
+      <point x="338.25" y="253.0" />
+      <point x="485.0" y="172.0" />
+      <point x="-26.0" y="23.0" />
+    </edge>
+    <edge source="builder.builder.building.Villa" target="builder.builder.building.AbstractBuilding">
+      <point x="0.0" y="-23.0" />
+      <point x="56.0" y="71.0" />
+      <point x="492.25" y="71.0" />
+      <point x="-55.0" y="23.0" />
+    </edge>
+    <edge source="builder.builder.builder.CommonHouseBuilder" target="builder.builder.building.CommonHouse">
+      <point x="67.25" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="builder.builder.director.StandardBuildingDirector" target="builder.builder.builder.BuildingBuilder">
+      <point x="0.0" y="-23.0" />
+      <point x="668.75" y="172.0" />
+      <point x="537.0" y="172.0" />
+      <point x="26.0" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="571.5" y="119.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

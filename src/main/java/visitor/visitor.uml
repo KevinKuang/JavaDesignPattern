@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="535.0">visitor.ConsumeBill</node>
+    <node x="334.0" y="168.0">visitor.Boss</node>
+    <node x="0.0" y="204.0">visitor.CPA</node>
+    <node x="878.0" y="553.0">visitor.AccountBook</node>
+    <node x="439.0" y="535.0">visitor.IncomeBill</node>
+    <node x="459.0" y="403.0">visitor.Bill</node>
+    <node x="177.0" y="0.0">visitor.AccountBookViewer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="visitor.AccountBook" target="visitor.Bill">
+      <point x="0.0" y="-59.0" />
+      <point x="1006.0" y="510.0" />
+      <point x="774.8333333333333" y="510.0" />
+      <point x="126.33333333333326" y="41.0" />
+    </edge>
+    <edge source="visitor.ConsumeBill" target="visitor.Bill">
+      <point x="0.0" y="-77.0" />
+      <point x="209.5" y="510.0" />
+      <point x="522.1666666666666" y="510.0" />
+      <point x="-126.33333333333337" y="41.0" />
+    </edge>
+    <edge source="visitor.Boss" target="visitor.AccountBookViewer">
+      <point x="0.0" y="-95.0" />
+      <point x="511.0" y="143.0" />
+      <point x="412.5" y="143.0" />
+      <point x="78.5" y="59.0" />
+    </edge>
+    <edge source="visitor.CPA" target="visitor.AccountBookViewer">
+      <point x="0.0" y="-59.0" />
+      <point x="157.0" y="143.0" />
+      <point x="255.5" y="143.0" />
+      <point x="-78.5" y="59.0" />
+    </edge>
+    <edge source="visitor.IncomeBill" target="visitor.Bill">
+      <point x="0.0" y="-77.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7193229901269395" x="567.0" y="344.49999999999994" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

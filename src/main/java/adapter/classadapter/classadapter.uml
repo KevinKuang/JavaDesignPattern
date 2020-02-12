@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="242.0" y="0.0">adapter.GenerateDataInterface</node>
+    <node x="0.0" y="0.0">adapter.OutputDataClass</node>
+    <node x="149.25" y="96.0">adapter.classadapter.ClassAdapter</node>
+    <node x="0.0" y="187.0">adapter.UseDataClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapter.classadapter.ClassAdapter" target="adapter.OutputDataClass">
+      <point x="-47.25" y="-23.0" />
+      <point x="196.5" y="71.0" />
+      <point x="111.0" y="71.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="adapter.classadapter.ClassAdapter" target="adapter.GenerateDataInterface">
+      <point x="47.25" y="-23.0" />
+      <point x="291.0" y="71.0" />
+      <point x="376.5" y="71.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="332.0" y="188.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="267.5" y="0.0">flyweight.Website</node>
+    <node x="0.0" y="96.0">flyweight.WebsiteFactory</node>
+    <node x="0.0" y="283.0">flyweight.User</node>
+    <node x="141.5" y="192.0">flyweight.ConcreteWebsiteFactory</node>
+    <node x="229.0" y="96.0">flyweight.ConcreteWebsite</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="flyweight.ConcreteWebsite" target="flyweight.Website">
+      <point x="0.0" y="-23.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="flyweight.ConcreteWebsiteFactory" target="flyweight.WebsiteFactory">
+      <point x="-95.33333333333331" y="-23.0" />
+      <point x="189.16666666666669" y="167.0" />
+      <point x="104.5" y="167.0" />
+      <point x="0.0" y="23.0" />
+    </edge>
+    <edge source="flyweight.ConcreteWebsiteFactory" target="flyweight.ConcreteWebsite">
+      <point x="95.33333333333331" y="-23.0" />
+      <point x="379.8333333333333" y="167.0" />
+      <point x="395.5" y="167.0" />
+      <point x="55.5" y="23.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="225.5" y="164.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
